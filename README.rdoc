@@ -1,5 +1,5 @@
-rails c
+ bundle
 
- ROM.container does not have any gateways and relations
+ rails c
 
- why ?
+ ROM.container # gateways and relations are empty
