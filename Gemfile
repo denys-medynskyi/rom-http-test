@@ -9,7 +9,7 @@ gem 'pg'
 
 gem 'rom'
 gem 'rom-rails'
-gem 'rom-sql'
+gem 'rom-http'
 gem 'rom-repository'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

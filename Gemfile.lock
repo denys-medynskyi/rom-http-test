@@ -146,6 +146,11 @@ GEM
       dry-types (~> 0.8)
       rom-mapper (~> 0.4.0)
       rom-support (~> 2.0)
+    rom-http (0.4.0)
+      dry-equalizer
+      dry-types
+      rom (~> 2.0)
+      thread_safe
     rom-mapper (0.4.0)
       dry-equalizer (~> 0.2)
       rom-support (~> 2.0.0)
@@ -170,12 +175,6 @@ GEM
       rom (~> 2.0)
       rom-mapper (~> 0.4)
       rom-support (~> 2.0)
-    rom-sql (0.8.0)
-      dry-equalizer (~> 0.2)
-      dry-types (~> 0.8)
-      rom (~> 2.0)
-      rom-support (~> 2.0)
-      sequel (~> 4.25)
     rom-support (2.0.0)
       concurrent-ruby (~> 1.0)
       dry-equalizer (~> 0.2)
@@ -191,7 +190,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sequel (4.37.0)
     spring (1.7.2)
     sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
@@ -234,9 +232,9 @@ DEPENDENCIES
   pg
   rails (= 4.2.6)
   rom
+  rom-http
   rom-rails
   rom-repository
-  rom-sql
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
